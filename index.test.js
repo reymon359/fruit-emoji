@@ -218,17 +218,6 @@ describe('Get fruit emojis by given name', () => {
     expect(fruitEmoji).toEqual(mockFruitEmoji)
   })
 
-  it('should get the avocado fruit emoji', () => {
-    // Arrange
-    const mockFruitName = 'avocado'
-    const mockFruitEmoji = '🥑'
-
-    // Act
-    const fruitEmoji = getFruitEmoji(mockFruitName)
-
-    // Assert
-    expect(fruitEmoji).toEqual(mockFruitEmoji)
-  })
 
   it('should return undefined if the fruit does not exist', () => {
     // Arrange
