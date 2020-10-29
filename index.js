@@ -1,0 +1,20 @@
+const getFruitEmoji = fruit => ({
+  Grapes: '🍇',
+  Melon: '🍈',
+  Watermelon: '🍉',
+  Tangerine: '🍊',
+  Lemon: '🍋',
+  Banana: '🍌',
+  Pineapple: '🍍',
+  Mango: '🥭',
+  'Red Apple': '🍎',
+  'Green Apple': '🍏',
+  Pear: '🍐',
+  Peach: '🍑',
+  Cherries: '🍒',
+  Strawberry: '🍓',
+  'Kiwi Fruit': '🥝',
+  Tomato: '🍅',
+  Coconut: '🥥',
+  Avocado: '🥑'
+})[fruit]
