@@ -20,4 +20,4 @@ const getFruitEmoji = fruitName => ({
 
 module.exports = {
   getFruitEmoji
-};
+}
