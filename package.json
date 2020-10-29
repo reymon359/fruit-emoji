@@ -1,6 +1,6 @@
 {
   "name": "fruit-emoji",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fruit emoji",
   "main": "index.js",
   "scripts": {
