@@ -1,20 +1,23 @@
-const getFruitEmoji = fruit => ({
-  Grapes: '🍇',
-  Melon: '🍈',
-  Watermelon: '🍉',
-  Tangerine: '🍊',
-  Lemon: '🍋',
-  Banana: '🍌',
-  Pineapple: '🍍',
-  Mango: '🥭',
-  'Red Apple': '🍎',
-  'Green Apple': '🍏',
-  Pear: '🍐',
-  Peach: '🍑',
-  Cherries: '🍒',
-  Strawberry: '🍓',
-  'Kiwi Fruit': '🥝',
-  Tomato: '🍅',
-  Coconut: '🥥',
-  Avocado: '🥑'
-})[fruit]
+const getFruitEmoji = fruitName => ({
+  grapes: '🍇',
+  melon: '🍈',
+  watermelon: '🍉',
+  orange: '🍊',
+  lemon: '🍋',
+  banana: '🍌',
+  pineapple: '🍍',
+  mango: '🥭',
+  apple: '🍏',
+  pear: '🍐',
+  peach: '🍑',
+  cherries: '🍒',
+  strawberry: '🍓',
+  kiwi: '🥝',
+  tomato: '🍅',
+  coconut: '🥥',
+  avocado: '🥑'
+})[fruitName]
+
+module.exports = {
+  getFruitEmoji
+};
