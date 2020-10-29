@@ -1,6 +1,6 @@
 {
   "name": "fruit-emoji",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fruit emoji",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,11 @@
     "lint:fix": "eslint . --ext .js,.jsx --fix",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reymon359/fruit-emoji.git"
+  },
+  "homepage": "https://github.com/reymon359/fruit-emoji#readme",
   "keywords": [
     "fruit"
   ],
