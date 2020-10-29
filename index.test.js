@@ -1,6 +1,6 @@
 const { getFruitEmoji } = require('./index.js')
 
-describe('Get Fruit Emoji', () => {
+describe('Get fruit emojis by given name', () => {
   it('should get the orange fruit emoji', () => {
     // Arrange
     const mockFruitName = 'orange'
@@ -230,4 +230,14 @@ describe('Get Fruit Emoji', () => {
     expect(fruitEmoji).toEqual(mockFruitEmoji)
   })
 
+  it('should return undefined if the fruit does not exist', () => {
+    // Arrange
+    const mockFruitName = 'potato'
+
+    // Act
+    const fruitEmoji = getFruitEmoji(mockFruitName)
+
+    // Assert
+    expect(fruitEmoji).toEqual(undefined)
+  })
 })
